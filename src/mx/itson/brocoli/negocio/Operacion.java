@@ -7,6 +7,7 @@ package mx.itson.brocoli.negocio;
 /**
  * Contiene metodos para trabajar cadena de Sting.
  * @author Antonio
+ * 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
  */
 public class Operacion {
     /**
@@ -15,7 +16,8 @@ public class Operacion {
      * @return Array de String en donde cada posicion representa una division.
      * 
      */
-        public String[] separar(String valor){            
+        public String[] separar(String valor){ 
+            // hola esto es un cambio
            String[] elementos = valor.split("-");
             return elementos;
                     
